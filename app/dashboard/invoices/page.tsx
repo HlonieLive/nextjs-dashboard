@@ -4,6 +4,11 @@ import Table from '@/app/ui/invoices/table';
 import { CreateInvoice } from '@/app/ui/invoices/buttons';
 import { lusitana } from '@/app/ui/fonts';
 import { fetchInvoicesPages } from '@/app/lib/data';
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'Invoices',
+};
 
 export default async function Page(props: {
   searchParams?: Promise<{
