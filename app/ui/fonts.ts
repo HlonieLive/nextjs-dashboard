@@ -1,9 +1,9 @@
 import { Inter, Lusitana } from 'next/font/google';
 
 export const inter = Inter({ 
-    subsets: ['latin'] 
+    subsets: ['latin']
 });
 export const lusitana = Lusitana({ 
     subsets: ['latin'],
-    weight: ['400', '700'] 
+    weight: ['400', '700']
 });
